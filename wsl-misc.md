@@ -1,0 +1,5 @@
+- [warning: Insecure world writable dir /mnt/c in PATH, mode 040777 · Issue #1426 · microsoft/WSL](https://github.com/Microsoft/WSL/issues/1426)
+- [Can't set different font for the terminal · Issue #757 · microsoft/WSL](https://github.com/Microsoft/WSL/issues/757#issuecomment-359867729)
+  - 레지스트리를 수정해도 vim, nano에서 굴림체가 나올 경우
+    - [256 colors in vim | Vim Tips Wiki | FANDOM powered by Wikia](https://vim.fandom.com/wiki/256_colors_in_vim)
+    - ```TERM=xterm-color```
