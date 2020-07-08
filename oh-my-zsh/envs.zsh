@@ -1,11 +1,8 @@
-ZSH_THEME="agnoster"
-export PATH="$HOME/bin:$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+ZSH_THEME="gnzh"
 
-export DOCKER_HOST="tcp://0.0.0.0:2375"
+export PATH="$HOME/wsl-shims:$HOME/.cargo/bin:$HOME/bin:$HOME/.rbenv/bin:$PATH"
 
-if [ -e /usr/share/terminfo/x/xterm-256color ]; then
-  export TERM='xterm-256color'
-else
-  export TERM='xterm-color'
-fi
+# https://github.com/junegunn/fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+umask 002
